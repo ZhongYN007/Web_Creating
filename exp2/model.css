@@ -59,7 +59,7 @@ footer{
     margin-left:30%;
     margin-top:40px;
 }
-.footer_a{
+footer > a{
     color:gray;
 
 }

@@ -53,3 +53,13 @@ Align-items:修饰辅助方向
 justify-content：修饰主方向内容
 
 justify-content：space-between
+
+### FlexBox
+
+Display ：flex默认从左往右
+
+flex-direction：子节点从左往右依次摆放
+
+justify-cotent：space between每个元素之间留点空隙
+
+flex：1每个小块均衡给1块
