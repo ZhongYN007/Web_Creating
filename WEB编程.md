@@ -63,3 +63,21 @@ flex-direction：子节点从左往右依次摆放
 justify-cotent：space between每个元素之间留点空隙
 
 flex：1每个小块均衡给1块
+
+Grid-column:span 2;
+
+Grid-row:span 2;占据两行两列，这个属性是占据两列
+
+
+
+
+
+
+
+em：是根据字体默认值的一个相对值：padding：1.9em
+
+Col-5:一行共12份，总共占据5份。
+
+col-sm-5:
+
+col-md-5

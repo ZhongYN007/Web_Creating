@@ -1,0 +1,35 @@
+.top{
+    display:flex;
+    height:100px;
+    background-color: #f8f5d6;
+    align-items: center;
+}
+.top h2{
+    color:#80d1c8 ;
+}
+.daohang{
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:nowrap;
+}
+
+.item{
+    border:1px solid #ccc;
+
+}
+.item img{
+    width:300px;
+    height:200px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
