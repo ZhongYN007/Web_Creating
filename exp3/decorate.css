@@ -7,14 +7,12 @@
 .top h2{
     color:#80d1c8 ;
 }
-.daohang{
 
-}
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
 }
 
 .item{
