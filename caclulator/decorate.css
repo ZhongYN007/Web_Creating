@@ -1,0 +1,28 @@
+
+.grid-container{
+    display:grid;
+    grid-template-columns:100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+
+    margin-left: 40%;
+}
+#display{
+    margin-left:40%;
+    height:70px;
+    width:400px;
+    text-align:right;
+    font-size:40px;
+    background-color:#464748;
+    color:#ebebec;
+
+}
+.grid-element{
+
+    background-color: #7d7c7e;
+    color:#ebebeb;
+    font-size:20px;
+}
+.zero{
+    background-color: #7d7c7e;
+    color:#ebebeb;
+}
