@@ -3,7 +3,6 @@
     display:grid;
     grid-template-columns:100px 100px 100px 100px ;
     grid-template-rows: 100px 100px 100px 100px 100px;
-
     margin-left: 40%;
 }
 
@@ -16,6 +15,9 @@
     background-color:#52514d;
     color:#ebebec;
 
+}
+input::-webkit-input-placeholder{
+    color:#ebebec;
 }
 .grid-element{
 
