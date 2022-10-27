@@ -8,30 +8,30 @@
 </head>
 <body>
 
-<div id="display">0</div>
+<input id="display">
 <div class="grid-container">
-    <button class="grid-element" type="button">C</button>
-    <button class="grid-element" type="button">(</button>
-    <button class="grid-element" type="button">)</button>
-    <button class="grid-element" type="button">del</button>
+    <button class="grid-element1" type="button" onclick="C()">AC</button>
+    <button class="grid-element1" type="button" onclick="display_number('(')">(</button>
+    <button class="grid-element1" type="button" onclick="display_number(')')">)</button>
+    <button class="grid-element2" type="button" onclick="del()">del</button>
 
-    <button class="grid-element" type="button">7</button>
-    <button class="grid-element" type="button">8</button>
-    <button class="grid-element" type="button">9</button>
-    <button class="grid-element" type="button">÷</button>
+    <button class="grid-element" type="button" onclick="display_number('7')">7</button>
+    <button class="grid-element" type="button" onclick="display_number('8')">8</button>
+    <button class="grid-element" type="button" onclick="display_number('9')">9</button>
+    <button class="grid-element2" type="button" onclick="display_number('/')">/</button>
 
-    <button class="grid-element" type="button">4</button>
-    <button class="grid-element" type="button">5</button>
-    <button class="grid-element" type="button">6</button>
-    <button class="grid-element" type="button">x</button>
-    <button class="grid-element" type="button">1</button>
-    <button class="grid-element" type="button">2</button>
-    <button class="grid-element" type="button">3</button>
-    <button class="grid-element" type="button">-</button>
-    <button class="grid-element" type="button">=</button>
-    <button class="zero" type="button">0</button>
-    <button class="grid-element" type="button">.</button>
-    <button class="grid-element" type="button">+</button>
+    <button class="grid-element" type="button" onclick="display_number('4')">4</button>
+    <button class="grid-element" type="button" onclick="display_number('5')">5</button>
+    <button class="grid-element" type="button" onclick="display_number('6')">6</button>
+    <button class="grid-element2" type="button" onclick="display_number('*')">*</button>
+    <button class="grid-element" type="button" onclick="display_number('1')">1</button>
+    <button class="grid-element" type="button" onclick="display_number('2')">2</button>
+    <button class="grid-element" type="button" onclick="display_number('3')">3</button>
+    <button class="grid-element2" type="button" onclick="display_number('-')">-</button>
+    <button class="grid-element" type="button" onclick="cal()">=</button>
+    <button class="zero" type="button" onclick="display_number('0')">0</button>
+    <button class="grid-element" type="button" onclick="display_number('.')">.</button>
+    <button class="grid-element2" type="button" onclick="display_number('+')">+</button>
 </div>
 
 </body>
