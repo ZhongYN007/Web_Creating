@@ -1,6 +1,6 @@
 function display_number(num)
 {
-   document.getElementById("display").value =document.getElementById("display").value + num;
+   document.getElementById("display").value = document.getElementById("display").value + num;
 
 }
 
