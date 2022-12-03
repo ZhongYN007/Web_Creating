@@ -81,3 +81,14 @@ Col-5:一行共12份，总共占据5份。
 col-sm-5:
 
 col-md-5
+
+
+
+## react
+
+header标签可以认为和div相同
+
+background：linear-gradient()渐变颜色
+
+Class 和 clasname区别
+
